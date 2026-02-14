@@ -195,10 +195,7 @@
     speechBubble.classList.add('hidden');
     diagnosticLine.classList.add('hidden');
     processingSection.classList.remove('hidden');
-<<<<<<< HEAD
     panicBtn.classList.add('hidden');
-=======
->>>>>>> 8b1cecaa8b53e8c48766f94e4b506d4b03c46cc8
     setButtonsDisabled(true);
     
     sponsorAvatar.classList.remove('responding');
@@ -219,10 +216,7 @@
     
     speechBubble.classList.remove('hidden');
     diagnosticLine.classList.remove('hidden');
-<<<<<<< HEAD
     panicBtn.classList.remove('hidden');
-=======
->>>>>>> 8b1cecaa8b53e8c48766f94e4b506d4b03c46cc8
     setButtonsDisabled(false);
     
     setTimeout(() => {
