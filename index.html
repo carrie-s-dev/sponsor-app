@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Did you call your sponsor first?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="vignette"></div>
+  <main class="container">
+    <h1 class="title">Did you call your sponsor first?</h1>
+    
+    <div class="input-section">
+      <textarea 
+        id="bullshit-input" 
+        class="bullshit-textarea" 
+        placeholder="Throw your bullshit here..."
+        rows="3"
+      ></textarea>
+    </div>
+    
+    <div class="button-groups">
+      <div class="button-row three-col">
+        <button class="category-btn" data-category="unwilling">Unwilling</button>
+        <button class="category-btn" data-category="whatdoido">What do I do</button>
+        <button class="category-btn" data-category="okiwill">Ok I will</button>
+      </div>
+      <div class="button-row two-col">
+        <button class="category-btn" data-category="god">God kicked in</button>
+        <button class="category-btn" data-category="backfired">That backfired</button>
+      </div>
+      <div class="button-row two-col">
+        <button class="category-btn" data-category="stupid">Self Sabotage</button>
+        <button class="category-btn" data-category="angry">Angry rant</button>
+      </div>
+    </div>
+    
+    <button id="panic-btn" class="panic-btn">Panic</button>
+    
+    <section id="processing-section" class="processing-section hidden">
+      <p class="processing-line">Reviewing ego levels…</p>
+      <p class="processing-line">Scanning for self-will…</p>
+      <p class="processing-line">Calculating your part…</p>
+    </section>
+    
+    <section class="sponsor-section">
+      <div class="response-column">
+        <div id="speech-bubble" class="speech-bubble hidden">
+          <p id="sponsor-response" class="sponsor-response"></p>
+        </div>
+        <p id="diagnostic-line" class="diagnostic-line hidden"></p>
+      </div>
+      <div class="avatar-column">
+        <div id="thought-bubble" class="thought-bubble hidden">
+          <p id="thought-text" class="thought-text"></p>
+        </div>
+        <img id="sponsor-avatar" src="assets/sponsor.png" alt="Your sponsor" class="sponsor-avatar">
+      </div>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
